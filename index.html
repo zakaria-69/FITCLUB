@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/aa05a2e5a0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>FITCLUB</title>
+</head>
+
+<body>
+    <div class="overlayMenuMobile" onclick="closeMenuMobile()"></div>
+    <header>
+            <div class="navLogoContainer">
+                <img src="./assets/img/logo.png" alt="logo double triangle croisés">
+                <nav class="headerNav">
+                    <ul>
+                        <button class="close" onclick="closeMenuMobile()">
+                            <i class="fa-solid fa-xmark fa-xl"></i>
+                        </button>
+
+                        <li>
+                            <a href="">Les salles</a>
+                        </li>
+                        <li>
+                            <a href="">Tarifs</a>
+                        </li>
+                        <li>
+                            <a href="">S'inscrire</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menuBurger fa-2xl" onclick="openMenuMobile()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="headerTextContent">
+                <h1>FITCLUB</h1>
+                <p>- Le fitness autrement -</p>
+            </div>
+    </header>
+    <section class="programmes">
+        <div class="programmeCrossfit">
+            <h2>PROGRAMME CROSSFIT</h2>
+            <p>Nouveau challenge</p>
+        </div>
+        <div class="programmeFullBody">
+            <h2>PROGRAMME FULLBODY</h2>
+            <p>Body béton</p>
+        </div>
+    </section>
+    <section class="objectifs">
+        <h2>Notre objectif, votre progression</h2>
+        <p>Nous vous accompagons dans l'ellaboration de votre programme sportif afin qu'il soit adapté à vos objectifs.
+        </p>
+    </section>
+    <section class="optionsFormules">
+        <div class="faconnez option">
+            <img src="./assets/img/man-up-front@2x.png" alt="logo corp musclé">
+            <p>Façonnez le corps de vos rêves</p>
+        </div>
+        <div class="choixMachines option">
+            <img src="./assets/img/pectoral-machine@2x.png" alt="logo de machine pectoral musculation">
+            <p>Un grand choix de machines</p>
+        </div>
+        <div class="coaching option">
+            <img src="./assets/img/power-lifting@2x.png" alt="logo de personnage soulevant une haltere">
+            <p>Un coach individuel qui vous accompagne</p>
+        </div>
+        <div class="evolution option">
+            <img src="./assets/img/heartbeat@2x.png" alt="logo d'un coeur avec une fibrillation">
+            <p>Suivi de votre évolution corporelle</p>
+        </div>
+    </section>
+    <main>
+        <!--<div class="bgContainer">
+            <img src="./assets/img/crossfit.jpg">
+        </div>-->
+        <div class="blackBackground">
+            <div class="blackBackgroundContent">
+            <h2>FITCLUB , le fitness autrement</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, qui ipsam architecto neque quo,
+                laborum, consequuntur ipsa alias consectetur eveniet natus esse optio ab exercitationem suscipit
+                assumenda at illo cumque.
+                Pariatur velit error fuga.</p>
+            <button type="button">Je m'inscris</button>
+        </div>
+        </div>
+    </main>
+    <section class="optionsFormulesPArt2">
+        <div class="pertePoid optionPart2 unpair">
+            <img src="./assets/img/weight-loss@2x.png" alt="logo corp fit">
+            <h3>Perte de poids</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officia temporibus sed in omnis architecto.
+            </p>
+        </div>
+        <div class="progressMobile  optionPart2 pair">
+            <img src="./assets/img/phone-heart@2x.png" alt="logo d'un coeur sur mobile">
+            <h3>Votre progression sur mobile</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officia temporibus sed in omnis architecto.
+            </p>
+        </div>
+        <div class="accessCard  optionPart2 unpair">
+            <img src="./assets/img/referee@2x.png" alt="logo d'une main tenant un badge d'acces">
+            <h3>Une carte d'accès personnelle</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officia temporibus sed in omnis architecto.
+            </p>
+        </div>
+        <div class="adaptedMaterial  optionPart2 pair">
+            <img src="./assets/img/resistance-band@2x.png"
+                alt="logo d'une apareil pour ecouter les battements de coeurs">
+            <h3>Matériel adapté</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officia temporibus sed in omnis architecto.
+            </p>
+        </div>
+        <div class="collectifCours optionPart2 unpair">
+            <img src="./assets/img/boxing-glove@2x.png" alt="logo gants de boxe">
+            <h3>Cours collectifs</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officia temporibus sed in omnis architecto.
+            </p>
+        </div>
+        <div class="vestiaireShower optionPart2 pair">
+            <img src="./assets/img/bath-tub@2x.png" alt="logo d'une baignoire">
+            <h3>Douches dans les vestiaires</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officia temporibus sed in omnis architecto.
+            </p>
+        </div>
+    </section>
+    <section class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3937.471902201399!2d4.8410542577891205!3d45.746873969066165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea4133d829c7%3A0xc57067fe1ed804d1!2sL&#39;Appart%20Fitness%20-%20Salle%20de%20sport%20Lyon%207%20Jean%20Jaur%C3%A8s!5e0!3m2!1sfr!2sfr!4v1685614220014!5m2!1sfr!2sfr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" id="map">
+        </iframe>
+    </section>
+    <hr>
+    <footer>
+        <div class="leftPart">
+            <img src="./assets/img/logo.png" alt="logo du site representant deux triangle imbriqués">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quisquam officia dignissimos sequi,
+                temporibus nam incidunt deserunt soluta.</p>
+            <nav>
+                <ul>
+                    <li><a href="https://facebook.com"><i class="fa-brands fa-facebook fa-lg"></i></a></li>
+                    <li><a href="https://instagram.com"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+                    <li>
+                        <a href="https://twitter.com">
+                            <i class="fa-brands fa-twitter fa-lg"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="contact">
+            <form action="" method="get">
+                <div class="formContainer">
+                    <h3>NOUS CONTACTER</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, quas. Perspiciatis earum fugit.
+                    </p>
+                    <input type="text" name="name" id="name" placeholder="Nom">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <button type="submit">ENVOYER</button>
+                </div>
+            </form>
+        </div>
+        <div class="rightPart">
+            <div class="location">
+                <h3><i class="fa-solid fa-location-dot"></i>ADRESSE</h3>
+                <a href="https://goo.gl/maps/bwLEgXnNrAYfU4gf6">13 rue du sans retour</a>
+                <br>
+                <a href="https://goo.gl/maps/bwLEgXnNrAYfU4gf6">69006 Lyon</a>
+            </div>
+            <div class="phone">
+                <h3><i class="fa-solid fa-phone"></i>TELEPHONE</h3>
+                <a href="tel:061213141516">+33 6 12 13 14 15</a>
+                <br>
+                <a href="tel:061213141516">+33 6 12 13 14 15</a>
+            </div>
+            <div class="mail">
+                <h3><i class="fa-solid fa-envelope"></i>MAIL</h3>
+                <a href="mailto:toto@lasalle.com">toto@lasalle.com</a>
+                <br>
+                <a href="mailto:tata@lasalle.com">tata@lasalle.com</a>
+            </div>
+
+        </div>
+    </footer>
+    <script>
+        function openMenuMobile() {
+            document.querySelector(".headerNav").classList.add('open');
+            document.querySelector(".overlayMenuMobile").classList.add('open');
+            console.log("opened menu")
+
+        }
+        function closeMenuMobile() {
+            document.querySelector(".headerNav").classList.remove('open');
+            document.querySelector(".overlayMenuMobile").classList.remove('open');
+            console.log("closed menu")
+
+        }
+    </script>
+
+</body>
+
+</html>

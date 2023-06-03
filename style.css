@@ -1,0 +1,783 @@
+/*Parametrage global*/
+
+*,::after,::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.menuBurger{
+    display: none;
+}
+
+.headerNav{
+    display: flex;  
+}
+
+/*ul{
+    list-style-type: none;
+}*/
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header a{    
+    color: white;
+    padding: .5rem; 
+}
+
+header a:hover{
+    background-color: #7E3060;
+    padding: .5rem; 
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+button{
+    background-color: #7E3060;
+    color: white;
+    padding: .5rem;
+    margin: 2% 0 0 4%;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+    padding: .5rem;
+    margin: 2% 0 0 4%;
+}
+
+/*Menu burget settings*/
+
+.menuBurger{
+    display: none;
+}
+
+.close{
+    display: none;
+}
+
+                    /*Header*/
+header{  
+    height: 25rem;
+    background-size: cover;
+    background-image: linear-gradient(to bottom right, rgba(230, 84, 198, 0.2), rgba(36, 171, 212, 0.2)), url("./assets/img/fitness.jpg");
+    color: white;
+}
+
+
+.navLogoContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+
+}
+
+.headerNav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.navLogoContainer img{
+    margin: 1rem;
+   
+}
+
+.headerNav li{
+    margin:  1rem;
+
+}
+
+.headerTextContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 12rem;
+}
+
+.headerTextContent h1{
+    margin-bottom: .5rem;
+    font-size: 3.5rem;
+    font-weight: 800;
+    font-style: italic;   
+}
+
+
+                    /*Programmes*/
+
+.programmes{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 7rem;
+    
+}
+
+.programmeCrossfit{
+    width: 32rem;
+    height: 19rem;
+    background-image: linear-gradient(to bottom right, rgba(17, 17, 17, 0.9), rgba(17, 17, 17, 0)), url("./assets/img/fitnessman.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    box-shadow: -2px 3px 8px rgba(0, 0, 0, 0.3);
+    
+}
+.programmeFullBody{
+    width: 32rem;
+    height: 19rem;
+    background-image: linear-gradient(to right, rgba(134, 37, 110, 0.5), rgba(179, 110, 135, 0.5)), url("./assets/img/fitnesswoman.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.3);
+    
+
+}
+
+.programmeCrossfit, .programmeFullBody{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+
+}
+
+.programmeCrossfit p, .programmeFullBody p{
+    margin: 1rem 0;
+    
+}
+
+.programmeCrossfit h2, .programmeFullBody h2{
+    font-weight: 500;
+    
+}
+
+                  /*objectifs*/
+
+.objectifs{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 4rem;
+}
+
+
+.objectifs h2{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+
+                /*options formules*/
+
+
+
+.optionsFormules{
+    display: flex;
+    box-shadow: -1px -1px 1px rgb(199, 196, 196, 0.3);
+}
+
+.option{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    text-align: center;
+    border : none;
+    box-shadow: 2px -2px 1px rgb(199, 196, 196, 0.5);
+}
+
+.option img{
+    height: 4rem;
+    margin-bottom: 1rem;
+}
+
+
+/*Main fitness le club autrement*/
+
+main{
+    height: 30rem;
+    background-image: linear-gradient(to right, rgba(154,125,153,0.5), rgba(47,29,41,0)), url("./assets/img/crossfit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: -4rem 40%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+main button{
+    width: 6rem;
+}
+
+.blackBackground{
+    height: 30rem;
+    width: 50%;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.blackBackground h2{
+    margin: 0 0 1rem 0;
+    position: relative;
+    right: 4rem;
+}
+
+.blackBackground p{
+    max-width: 50%;
+    margin-left: 2rem;
+}
+
+                /* Options part 2*/
+
+.optionsFormulesPArt2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.optionPart2{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 20rem;
+}
+
+.optionPart2 h3{
+    text-align: center;
+}
+
+.optionPart2 img{
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.optionPart2 p{
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+.unpair{
+    background-color: #F3F3F3;
+}
+
+/*map*/
+
+#map{
+    width:100%;
+}
+
+hr{
+    border: solid #7E3060 4px;
+}
+
+/*Footer*/
+
+footer{
+    background-color: black;
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+}
+
+/*footer left Part*/
+
+footer .leftPart{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin: 1rem ;
+    padding: 4rem 2rem;
+}
+
+footer img{
+    width: 10%;
+    margin-bottom: 1rem;
+}
+
+.leftPart p{
+    text-align: end;
+    width: 50%;
+}
+
+footer ul{
+    display: flex;
+}
+
+footer li{
+    margin: 1rem .5rem;
+}
+
+/*Footer form*/
+
+footer .contact{
+    background-color: #fff;
+    color: black;
+    width: 30%;
+    position: relative;
+    bottom: 4rem;
+    box-shadow: inset -5px -5px 5px  #F3F3F3;   
+}
+
+footer form{
+    height: 100%;
+    
+}
+
+.formContainer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formContainer p{
+    margin: 1rem;
+    text-align: center;
+    width: 80%;
+}
+
+.formContainer input{
+    border: none;
+    padding: 2px;
+    width: 80%;
+    margin: 2.5rem;
+    border-bottom: solid black 1px;
+}*
+/*Footer right Part*/
+footer .rightPart{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 3rem 0;
+}
+
+.rightPart h3{
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.rightPart a{
+    margin: 0 3rem;
+
+}
+
+.formContainer button{
+    padding: 1.3rem ;
+}
+
+
+footer a:hover{
+    color: #7E3060;
+}
+
+.rightPart i{
+    padding: 0 1rem;
+    color: #7E3060;
+
+}
+
+
+                                            /*Media queries Tablette*/
+
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .optionsFormules p{
+        width: 50%;
+    }
+
+    main{
+        height: 30rem;     
+    }
+
+    main h2{
+        width: 20rem;
+        margin-top: 2rem;
+    }
+
+    .blackBackground{
+        height: 30rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .blackBackground button{
+        width: 25%;
+        margin: 2rem;
+    }
+
+    /*options*/
+
+    .optionPart2{
+        width: 50%;
+    }
+
+    .progressMobile , .accessCard , .vestiaireShower{
+    background-color: #cac8c8a1;
+    }
+
+    .pertePoid , .adaptedMaterial , .collectifCours{
+        background-color: #fff;
+    }
+
+    /*footer*/
+
+    /*left part*/
+
+    footer{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    footer .leftPart{
+        margin: 2rem 1rem ;
+        padding: 0;
+        width: 25%;
+    }
+
+    footer img{
+        width: 4rem;
+    }
+
+    footer .leftPart p{
+        width: 100%;
+        text-align: center;
+        line-height: 1.4rem;
+
+    }
+
+    /*footer form*/
+
+    footer .contact{
+        width: 40%;
+    }
+
+      /*right Part*/
+
+      footer .rightPart{
+        margin: 2rem 1rem ;
+        padding: 0;
+        width: 25%;
+    }
+
+    .rightPart a{
+        width: 100%;
+        margin: 0 2rem; 
+       }
+
+    .rightPart h3{
+        padding: 1rem 0;
+    }
+
+}
+
+/*Mobile queries*/
+
+
+
+
+@media screen and (max-width: 768px){
+
+    /*header nav + overlay + animation menu burger + modal open close*/
+    /*header*/
+    header{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 20px;
+        z-index: -10;
+    }  
+
+    header .navLogoContainer{
+        background-color: #7E3060;  
+        display: flex;
+        justify-content: space-between; 
+        height: 4rem;
+        padding-left: .5rem;
+    }
+
+    .navLogoContainer img{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .menuBurger{
+        display: block;
+        margin: 1rem 1.5rem;
+        cursor: pointer;
+    }
+
+
+   .headerNav{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 300px;
+        height: 100vh;
+        background-color: #7E3060;
+        color: white;
+        transform: translateX(100%);
+        transition: 0.3s transform ease-in-out;
+
+    }
+
+    .headerNav.open{
+        transform: initial;
+        display: flex;
+        z-index: 100;
+    }
+
+    .headerNav ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-weight: 500;
+        font-size: 20px;
+       
+    }
+
+    .headerNav a:hover{
+        background-color: black;
+    }
+
+    .close{
+        display: block;
+    }
+
+    .headerNav i{
+        margin: 1rem ;
+    }
+
+    .headerNav button{
+        position: absolute;
+        top: 1px;
+        right: 5px;
+        cursor: pointer;
+
+    }
+
+    .overlayMenuMobile{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.6);
+        display: none;
+    }
+
+    .overlayMenuMobile.open{
+        display: block;
+    }
+
+    /*Programmes*/
+    .programmes{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        z-index: 10;
+        
+    }
+
+    .programmeCrossfit , .programmeFullBody{
+        box-shadow: 2px 3px 8px rgb(0, 0, 0 , 0.3);
+        width: 100%;
+        height: 15rem;
+
+    }
+
+    .programmeCrossfit h2 , .programmeFullBody h2{
+        width: 50%;
+        text-align: center;
+        line-height: 2.2rem;
+
+    }
+
+    /*objectifs*/
+
+    .objectifs h2{
+        width: 70%;
+        text-align: center;
+        font-weight: 800;
+    }
+
+    .objectifs p{
+        width: 80%;
+        text-align: center;
+    }
+
+    /*options Formules*/
+
+    .optionsFormules{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .option{
+        width: 50%;
+    }
+
+    .option p{
+        width: 70%;
+    }
+
+    /*main*/
+
+    .blackBackground{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .blackBackground h2{
+        margin: 0;
+        text-align: left;
+        position: initial;
+        margin-bottom:1rem ;
+        width: 70%;
+    }
+
+    .blackBackground p{
+        margin: 0;
+        text-align: left;
+        max-width: 80%;
+    }
+
+    .blackBackground button{
+        margin: 1rem 0;
+        
+    }
+    
+    .blackBackgroundContent{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    /*options part 2*/
+    .optionPart2{
+        width: 100%;
+    }
+
+    .optionPart2 h3{
+        margin-bottom: 1rem;
+    }
+
+    .optionPart2 p{
+        width: 60%;
+    }
+
+
+    /*Footer*/
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    footer .contact{
+        order: 1;
+        margin: 0;
+        width: 80%;
+    }
+
+    .formContainer{
+        padding: 2rem;
+    }
+
+    .formContainer h3{
+        width: 50%;
+        text-align: center;
+    }
+
+    footer .leftPart{
+        order: 2;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .leftPart img{
+        width: 20%;
+    }
+
+    .leftPart p{
+        width: 90%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    footer .rightPart{
+        margin: 3rem auto 5rem;
+        order: 3;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        width: 70%;
+
+    }
+
+    .rightPart h3{
+        margin-bottom: 1rem ;
+        padding: 0;
+    }
+
+    footer .rightPart a{
+        margin: 10px 0 10px 2rem ;
+        padding: 0;
+    }
+
+    .location , .phone , .mail{
+        margin: 0;
+        padding: 1rem 0;
+    }
+
+ 
+
+
+
+
+}
